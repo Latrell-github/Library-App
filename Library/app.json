@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Library App",
+    "slug": "LibraryApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./img/1icon.png",
+    "splash": {
+      "image": "./img/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./img/1icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "LibraryApp.apk"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
